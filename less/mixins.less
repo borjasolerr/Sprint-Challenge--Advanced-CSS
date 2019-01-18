@@ -1,1 +1,23 @@
 // Mixins Here
+.btn(@size; @tx-align; @width) {
+  background-color: #000;
+  color: white;
+  text-align: @tx-align;
+  font-size: 2rem;
+  width: @width;
+  padding: 0.8rem @size;
+  border-radius: @size;
+  transition: all 0.25s;
+  border: 1px solid #000;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    box-shadow: 0 0.35rem 0.35rem rgb(173, 173, 173);
+    background-color: #fff;
+    color: #000;
+  }
+  &:active {
+    transform: scale(0.475);
+    box-shadow: none;
+  }
+}
