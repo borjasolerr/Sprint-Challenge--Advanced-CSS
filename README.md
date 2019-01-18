@@ -34,23 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-#### Responsive websites respond to the size of the viewport at any width. Adaptive websites adapt to the width at specific points.
+#### Responsive websites respond to the size of the viewport. Adaptive websites adapt to the width at specific points.
 
 2. Describe what it means to be mobile first vs desktop first.
 
-#### Mobile first means to design for the smallest devices and work up. Desktop first means designing for larger screen sizes and working down in screen sizes.
+#### Mobile first means to design for the smallest devices first (mobile) and continue developing for the largest device. Desktop first means designing for larger screen sizes and working down in screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-#### It fixes 1 rem equivalent to 10px allowing us easier conversion between the two units.
+#### As 1rem equals the font size of the html element (which for most browsers has a default value of 16px). It helps us fixing 1 rem equivalent to 10px allowing us easier conversion between the two units.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-#### Preprocessors extend the capabilities of CSS. They allow us to work in a particular syntax with more powerful features. We can then use the preprocessor to compile the code back down to vanilla CSS so the browser understands the code.
+#### Preprocessors allows us to generate an automatic CSS from preprocessors CSS code. They allow us to work in a particular syntax that can be clearer. We can then use the preprocessor to compile the code back down to CSS so the browser understands the code better.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-#### Favourite concept is being able to use variables. One change of a variable value and the change happens site wide. The concept that gives me most trouble is parametric mixins. Took a long time for me to get it right yesterday.
+#### Favourite concept is variables so you can assign CSS values to variables, meaning that a hex color #fff can now be set as a variable for you to reuse whenever you want.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
