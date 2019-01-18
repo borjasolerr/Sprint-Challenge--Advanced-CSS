@@ -349,3 +349,9 @@ footer {
     border-radius: 10px;
   }
 }
+.home .fade {
+  opacity: 1;
+}
+.home .fade:hover {
+  opacity: 0.75;
+}
