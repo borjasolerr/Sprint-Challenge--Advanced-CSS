@@ -160,6 +160,36 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  padding: 2rem 0;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-bottom: #F1F1F1;
+  font-size: 4rem;
+  text-decoration: none;
+}
+.nav a {
+  color: #23293B;
+}
+.nav .nav__title a {
+  font-family: "Russo One", sans-serif;
+  text-decoration-line: none;
+}
+.nav .nav__links {
+  padding: 2rem 0 0 0;
+  font-size: 1.6rem;
+}
+.nav .nav__links a {
+  text-decoration-line: none;
+  margin: 0 2rem;
+}
+.nav .nav__links a:hover {
+  cursor: pointer;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
