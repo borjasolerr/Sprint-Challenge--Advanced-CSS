@@ -18,6 +18,9 @@
   .nav__title a {
     font-family: "Russo One", sans-serif;
     text-decoration-line: none;
+    @media @mobile {
+      font-size: 3.5rem;
+    }
   }
   .nav__links {
     padding: 2rem 0 0 0;
@@ -26,8 +29,14 @@
     a {
       text-decoration-line: none;
       margin: 0 2rem;
+      justify-content: space-evenly;
       &:hover {
         cursor: pointer;
+      }
+      @media @mobile {
+        margin: 0 1rem;
+        justify-content: space-around;
+        font-size: @paragraph-text-xs;
       }
     }
   }
